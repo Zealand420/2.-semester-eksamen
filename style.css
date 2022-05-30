@@ -1,84 +1,58 @@
+    * {
+        padding: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: white;
+        color: #0a0d0c;
+    }
     /* Navigationsbar */
     
-    .navbar {
+    header a {
+        text-decoration: none;
+    }
+    
+    header {
+        padding: 0 20px;
+        background-color: white;
+        height: 50px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        position: fixed;
-        z-index: 99;
-        align-content: space-between;
-        background-color: white;
-        width: 92vw;
-        padding-top: 1vw;
-        padding-bottom: 1vw;
     }
     
-    .navbar a {
-        text-decoration: none;
-        display: block;
-        text-transform: uppercase;
+    .kynologo {
+        display: flex;
+        height: 25px;
+        width: auto;
     }
     
-    .navbar-logo {
-        display: inline-block;
+    ul {
+        list-style: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
     
-    #myLinks {
-        display: none;
-    }
-    /* burger menu */
-    
-    .burger {
-        font-size: 2rem;
+    ul a {
+        color: #0a0d0c;
     }
     
-    #mobileLinks a {
-        color: var(--green);
-        text-align: left;
-        padding-top: 2%;
-        text-transform: uppercase;
-        font-size: 16px;
+    ul li {
+        padding: 5px;
+        margin-left: 10px;
     }
     
-    #mobileLinks {
-        display: none;
-        background-color: white;
-        text-decoration: none;
-        flex-direction: column;
-        padding-bottom: 3%;
-        padding-top: 1%;
+    .book {
+        border-radius: 5px;
+        padding: 5px 8px;
+        background-color: #7f0000;
     }
     
-    @media screen and (min-width:950px) {
-        /* fjerner burger */
-        .navbar a.icon {
-            display: none;
-        }
-        #mobileLinks {
-            display: none;
-        }
-        /* Viser desktop */
-        #myLinks {
-            display: flex;
-            position: sticky;
-            float: right;
-            align-items: flex-end;
-            justify-content: flex-end;
-        }
-        #myLinks a {
-            display: flex;
-            color: var(--green);
-            text-decoration: none;
-            padding-left: 15px;
-            padding-right: 15px;
-            padding-top: 32px;
-            padding-bottom: 32px;
-            color: black;
-        }
-        #myLinks a:hover {
-            color: rgb(0, 191, 111);
-        }
-        #myLinks a:visited {
-            color: rgb(0, 191, 111);
-        }
+    .book a {
+        color: white;
     }
