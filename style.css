@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: white;
-    color: #0a0d0c;
-    width: 100%;
-}
-
 .topbar {
     height: 75px;
     background-color: #c08080;
@@ -147,14 +141,53 @@ ul li {
 
 /* Navigationsbar slut*/
 
+/*hoved section begynder*/
+
+.tretekster{
+    margin-top: 100px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding: 10px;
+    justify-content: center;
+    grid-column-gap: 50px;
+    grid-template-rows: 500px;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+.grid-tekst1{
+    margin-top: 0px;
+}
+
+.grid-tekstto{
+    margin-top: 120px;
+}
+
+.grid-teksttre{
+    margin-top: 320px;
+}
+
+.grid-container h3{
+    font-size: 30px;
+}
+
+.grid-container p{
+    font-size: 20px;
+}
+
+
+
+
+
 
 /* Footer*/
 
 footer {
-    bottom: 0;
-    position: absolute;
-    right: 0;
-    left: 0;
+    
 }
 
 #some-ikon {
