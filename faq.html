@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,15 +15,49 @@
     <title>FAQ</title>
 </head>
 <body>
+
+    <header>
+        <div class="topbar">
+            <img class="logo" alt="kynorehab lundby v. monique nissen" src="img/logo.svg">
+        </div>
+        <img class="kynologo" src="img/KynoRehab logo.png" alt="kynorehab">
+        <nav>
+            <ul>
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="behandlinger.html">Behandlinger</a></li>
+                <li><a href="priser.html">Priser</a></li>
+                <li><a href="om.html">Om mig</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li class="book"><a href="#"> Book tid</a></li>
+            </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="openMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobil-nav">
+                <li><a href="#">Forside</a></li>
+                <li><a href="#">Behandlinger</a></li>
+                <li><a href="#">Priser</a></li>
+                <li><a href="#">Om mig</a></li>
+                <li><a href="#">Produkter</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li class="book"><a href="#"> Book tid</a></li>
+            </ul>
+        </div>
+    </header>
+
+
     <section class="hovedsection">
         <h1 class="overskriftfaq">FAQ</h1>
         <p class="højrelæsmere">Læs mere</p>
 
         <button class="spørgsmål mindretop">Hvordan foregår en behandling ved mig?</button>
         <div class="svar">
-            <p>
-                
-            </p>
+            <img src="img/behandlingsforløb.jpg" alt="information omkring behandlingsforløb">
         </div>
 
         <button class="spørgsmål">Er der noget jeg ikke må gøre med min hund efter behandling?</button>
@@ -75,10 +110,37 @@
             </p>
         </div>
 
-
     </section>
 
+    <footer id="kontakt">
+        <div class="rosa-footer">
+            <div class="rosa-flex">
+                <div>
+                    <p>KynoRehab Lundby <br> Adresse: Liljevænget 5, 4750 Lundby <br> E-mail: mn@kynorehab-lundby.dk <br> Tlf. nr.: 53 62 65 22 <br> CVR nr.: 42853739</p>
+                </div>
+                <div>
+                    <img src="img/instagram.png" id="some-ikon" alt="kynorehab instagram">
+                    <br>
+                    <img src="img/facebook.png" id="some-ikon" alt="kynorehab facebook">
+                </div>
+            </div>
+        </div>
+        <div class="grå-footer">
+            <div class="grå-flex">
+                <div>
 
+                </div>
+                <div>
+                    <p>
+                        Copyright 2022 © KynoRehab Lundby
+                    </p>
+                </div>
+                <div>
+                    <img src="img/logomark.svg" class="logomark" alt="kynorehab lundby">
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     
