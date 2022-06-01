@@ -1,0 +1,57 @@
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 125px;
+    margin-bottom: 120xp;
+}
+
+.artikel-img{
+    float:right;
+    margin-right: 100px;
+    padding-left: 25px;
+
+}
+
+.tekst{
+    padding-left: 100px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+a.ommig{
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    line-height: 32px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.artikel-img{
+    padding: 25px;
+    margin: auto;
+    align-items:center;
+}
+
+.tekst{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+a.ommig{
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    line-height: 32px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+
+}
+
+}
