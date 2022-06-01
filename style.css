@@ -141,21 +141,22 @@ ul li {
 
 /* Navigationsbar slut*/
 
+
 /*hoved section begynder*/
 
-.videobaggrund{
+.videobaggrund {
     position: relative;
     top: 80px;
 }
 
-.hund{
+.hund {
     /*margin-top: 100px;*/
     width: 100vw;
     height: 30vw;
     object-fit: cover;
 }
 
-.trivsel{
+.trivsel {
     position: absolute;
     bottom: 30px;
     left: 30px;
@@ -163,11 +164,11 @@ ul li {
     font-size: 50px;
 }
 
-.tretekster{
+.tretekster {
     margin-top: 100px;
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: 350px 350px 350px;
     padding: 10px;
@@ -178,29 +179,25 @@ ul li {
     color: black;
 }
 
-.grid-tekst1{
+.grid-tekst1 {
     margin-top: 0px;
 }
 
-.grid-tekstto{
+.grid-tekstto {
     margin-top: 120px;
 }
 
-.grid-teksttre{
+.grid-teksttre {
     margin-top: 320px;
 }
 
-.grid-container h3{
+.grid-container h3 {
     font-size: 30px;
 }
 
-.grid-container p{
+.grid-container p {
     font-size: 20px;
 }
-
-
-
-
 
 
 /* Footer*/
@@ -210,7 +207,7 @@ footer {
     right: 0;
     left: 0;
     position: static;
-    margin-top: 100px;
+    margin-top: 135px;
 }
 
 #some-ikon {
