@@ -143,10 +143,29 @@ ul li {
 
 /*hoved section begynder*/
 
+.videobaggrund{
+    position: relative;
+    top: 80px;
+}
+
+.hund{
+    /*margin-top: 100px;*/
+    width: 100vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.trivsel{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: rgb(109, 237, 29);
+    font-size: 50px;
+}
+
 .tretekster{
     margin-top: 100px;
 }
-
 
 .grid-container{
     display: grid;
