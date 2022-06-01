@@ -187,7 +187,11 @@ ul li {
 /* Footer*/
 
 footer {
-    
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: static;
+    margin-top: 100px;
 }
 
 #some-ikon {
@@ -206,6 +210,13 @@ footer p {
 
 .rosa-footer {
     background-color: #c08080;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: static;
 }
 
 .rosa-flex {
@@ -216,6 +227,11 @@ footer p {
 
 .grå-footer {
     background-color: #d1d1d1;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    position: static;
 }
 
 .grå-flex {
