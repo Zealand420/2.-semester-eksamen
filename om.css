@@ -12,6 +12,8 @@ h1 {
     float:right;
     margin-right: 100px;
     padding-left: 25px;
+    border-radius: 5px;
+    border-color: none;
 
 }
 
