@@ -5,7 +5,7 @@ h1 {
     text-align: center;
     padding-bottom: 50px;
     margin-top: 125px;
-    margin-bottom: 120xp;
+    margin-bottom: 100xp;
 }
 
 .artikel-img{
@@ -20,7 +20,7 @@ h1 {
 .tekst{
     padding-left: 100px;
     padding-top: 75px;
-    padding-bottom: 75px;
+    line-height: 32px;
 }
 
 a.ommig{
@@ -47,6 +47,7 @@ a.ommig{
     padding-right: 25px;
     padding-top: 50px;
     padding-bottom: 50px;
+    line-height: 30px;
 }
 
 a.ommig{
@@ -54,7 +55,6 @@ a.ommig{
     font-weight: normal;
     line-height: 32px;
     padding-right: 50px;
-    padding-bottom: 75px;
 
 }
 
