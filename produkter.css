@@ -60,3 +60,20 @@ h3 {
     font-family: rubik, Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+
+.køb {
+    background-color: #7f0000;
+    height: 70px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: -2px;
+    padding: 20px;
+}
+
+h4 {
+    color: white;
+    font-family: nunito, rubik, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
