@@ -288,7 +288,14 @@ footer {
     margin-top: 135px;
 }
 
-#some-ikon {
+#some-ig {
+    height: 25px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+#some-fb {
     height: 25px;
     width: auto;
     margin-top: 15px;
