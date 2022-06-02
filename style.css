@@ -151,7 +151,7 @@ ul li {
 
 .hund {
     /*margin-top: 100px;*/
-    width: 100vw;
+    width: 100%;
     height: 30vw;
     object-fit: cover;
 }
