@@ -149,7 +149,6 @@ ul li {
 /*desktop section*/
 
 .hovedsection {
-    padding: 0px 10px 0px 10px;
     margin: 100px 0px 0px 0px;
 }
 
@@ -158,16 +157,16 @@ ul li {
     color: #0A0D0C;
     cursor: pointer;
     padding: 25px;
-    width: 100%;
+    width: 90%;
     text-align: left;
     border-style: solid;
     border-color: black;
     outline: none;
     transition: 0.4s;
     font-family: 'Rubik', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 0px 68px;
 }
 
 .mindretop {
@@ -177,7 +176,7 @@ ul li {
 .højrelæsmere {
     text-align: right;
     font-size: 16px;
-    margin-bottom: 5px;
+    margin: 0px 60px 0px 5px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -189,7 +188,7 @@ ul li {
 .overskriftfaq {
     color: black;
     text-align: center;
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -213,13 +212,14 @@ ul li {
 
 .svar {
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     background-color: #D1D1D1;
-    width: 100%;
+    width: 90%;
     display: none;
     overflow: hidden;
     line-height: 2.0;
     color: #00807F;
+    margin-left: 68px;
 }
 
 .svar p {
@@ -318,7 +318,7 @@ footer p {
     .højrelæsmere {
         text-align: right;
         font-size: 12px;
-        margin-bottom: 5px;
+        margin: 0px 0px 0px 5px;
         font-family: 'Rubik', sans-serif;
     }
     .svar img {
