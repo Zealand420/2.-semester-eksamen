@@ -36,16 +36,18 @@ a.ommig{
 @media screen and (max-width: 600px) {
 
 .artikel-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 25px;
-    margin: auto;
-    align-items:center;
+    float: none;
 }
 
 .tekst{
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     line-height: 30px;
 }
 
