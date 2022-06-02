@@ -75,8 +75,7 @@ h1 {
     content: "\2212";
 }
 
-.aktiv,
-.pris:hover {
+.aktiv.pris:hover {
     background-color: #7F0000;
     color: white;
 }
@@ -106,7 +105,7 @@ h1 {
         margin: 5px;
     }
     .pris:after {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
     }
     .hovedsection {
@@ -116,6 +115,7 @@ h1 {
     .svar {
         font-size: 16px;
         line-height: 32px;
+        margin:5px;
         padding: 25px;
         width: 100%;
         display: none;
@@ -125,6 +125,3 @@ h1 {
         line-height: 32px;
     }
 }
-    font-weight: 500;
-    font-size: 12px;
-.pris:after{
