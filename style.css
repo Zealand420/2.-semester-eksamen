@@ -130,7 +130,7 @@ ul li {
     left: 0;
     height: 260px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 75px;
     background-color: #d1d1d1;
 }
 
@@ -166,7 +166,7 @@ ul li {
     left: 60px;
 }
 
-.trivsel img{
+.trivsel img {
     width: 70%;
 }
 
@@ -376,17 +376,15 @@ footer p {
         height: 80vw;
         object-fit: cover;
     }
-    .trivsel{
+    .trivsel {
         position: absolute;
         bottom: 10px;
         left: 0px;
         text-align: center;
     }
-
-    .trivsel img{
+    .trivsel img {
         width: 70%;
     }
-
     .grid-container {
         display: grid;
         grid-template-columns: 300px;
