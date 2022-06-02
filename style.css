@@ -163,9 +163,11 @@ ul li {
 .trivsel {
     position: absolute;
     bottom: 30px;
-    left: 30px;
-    color: rgb(109, 237, 29);
-    font-size: 50px;
+    left: 60px;
+}
+
+.trivsel img{
+    width: 70%;
 }
 
 .tretekster {
@@ -374,13 +376,17 @@ footer p {
         height: 80vw;
         object-fit: cover;
     }
-    .trivsel {
+    .trivsel{
         position: absolute;
-        bottom: 30px;
-        left: 30px;
-        color: rgb(109, 237, 29);
-        font-size: 20px;
+        bottom: 10px;
+        left: 0px;
+        text-align: center;
     }
+
+    .trivsel img{
+        width: 70%;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: 300px;
