@@ -80,21 +80,21 @@ h1 {
     color: white;
 }
 
-.btn {
-    position: absolute;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    padding: 10px 20px 10px 20px;
+.booktid {
+    color: white;
+    background-color: #7f0000;
+    text-decoration: none;
+    padding: 20px 30px 20px 30px;
     font-size: 25px;
-    font-weight: 500;
     font-family: 'Rubik', sans-serif;
-    margin-top: 90px;
-    background-color: #7F0000;
-    color: #ffffff;
     border-radius: 5px;
-    border-style: none;
 }
+
+.divbooktid {
+    text-align: center;
+    margin-top: 100px;
+}
+
 
 @media screen and (max-width: 600px) {
     .pris {
