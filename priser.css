@@ -1,33 +1,36 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-family: 'Nunito', sans-serif;
-    font-size:50px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     margin-top: 125px;
     margin-bottom: 120xp;
 }
 
-p{
+p {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: #00807f;
     padding: 30px 30px 30px 30px
 }
 
-.svar a{
+.svar a {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: #00807f;
     padding: 30px 30px 30px 30px
-
 }
 
-.hovedsection{
+.hovedsection {
     padding: 0px 50px 50px 50px;
     margin: 100px 0px 0px 0px;
 }
 
-.svar{
+.svar {
     font-family: 'Rubik', sans-serif;
     font-size: 25px;
     line-height: 50px;
@@ -37,9 +40,7 @@ p{
     background-color: #d1d1d1;
     color: #0a0d0c;
     overflow: hidden;
-
 }
-
 
 .pris {
     background-color: #ffffff;
@@ -61,24 +62,24 @@ p{
 .pris:after {
     content: 'Læs mere';
     color: #00807f;
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 16px;
     float: right;
     margin-left: 5px;
 }
-  
+
 .aktiv:after {
     content: "\2212";
 }
-    
-  
-.aktiv, .pris:hover {
+
+.aktiv,
+.pris:hover {
     background-color: #7F0000;
     color: white;
 }
 
-.btn{
+.btn {
     position: absolute;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
@@ -89,43 +90,35 @@ p{
     font-family: 'Rubik', sans-serif;
     margin-top: 90px;
     background-color: #7F0000;
-    color:#ffffff;
+    color: #ffffff;
     border-radius: 5px;
 }
-  
-
 
 @media screen and (max-width: 600px) {
-
-.pris {
-    padding: 10px;
-    font-size: 14px;
-    font-weight: normal;
-    width: 100%;
-    margin: 5px;
-    
-}
-
-.pris:after{
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.hovedsection{
-    padding: 20px;
-    margin: 10px 0px 0px 0px;
-}
-
-.svar{
-    font-size: 16px;
-    line-height: 32px;
-    padding: 25px;
-    width: 100%;
-    display: none;
-    background-color: #d1d1d1;
-    color: #0a0d0c;
-    overflow: hidden;
-    line-height: 32px;
-
-}
+    .pris {
+        padding: 10px;
+        font-size: 14px;
+        font-weight: normal;
+        width: 100%;
+        margin: 5px;
+    }
+    .pris:after {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .hovedsection {
+        padding: 20px;
+        margin: 10px 0px 0px 0px;
+    }
+    .svar {
+        font-size: 16px;
+        line-height: 32px;
+        padding: 25px;
+        width: 100%;
+        display: none;
+        background-color: #d1d1d1;
+        color: #0a0d0c;
+        overflow: hidden;
+        line-height: 32px;
+    }
 }
