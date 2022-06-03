@@ -279,6 +279,18 @@ ul li {
     margin-top: 100px;
 }
 
+.divbooktid h3{
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+}
+
+.divbooktid p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
 
 /* Footer*/
 
@@ -472,4 +484,17 @@ footer p {
         text-align: center;
         margin-top: 50px;
     }
+
+    .divbooktid h3{
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        margin-top: 50px;
+    }
+    
+    .divbooktid p{
+        font-family: 'Rubik', sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
 }
