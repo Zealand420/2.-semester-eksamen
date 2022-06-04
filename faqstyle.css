@@ -355,6 +355,7 @@ footer p {
         overflow: hidden;
         line-height: 2.0;
         color: #00807F;
+        margin-left: 0px;
     }
     .svar p {
         padding: 10px 20px 10px 20px;
