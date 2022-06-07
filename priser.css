@@ -80,22 +80,6 @@ h1 {
     color: white;
 }
 
-.booktid {
-    color: white;
-    background-color: #7f0000;
-    text-decoration: none;
-    padding: 20px 30px 20px 30px;
-    font-size: 25px;
-    font-family: 'Rubik', sans-serif;
-    border-radius: 5px;
-}
-
-.divbooktid {
-    text-align: center;
-    margin-top: 100px;
-}
-
-
 @media screen and (max-width: 600px) {
     h1{
         font-size: 30px;

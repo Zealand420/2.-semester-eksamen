@@ -251,7 +251,7 @@ ul li {
 .klientercases h1 {
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .cases img {
@@ -415,7 +415,7 @@ footer p {
         font-size: 20px;
     }
     .grid-container p {
-        font-size: 16px;
+        font-size: 14px;
     }
     .grid-containerto {
         display: grid;
@@ -428,7 +428,7 @@ footer p {
         color: black;
     }
     .grid-containerto p {
-        font-size: 16px;
+        font-size: 14px;
         margin-top: 20px;
     }
     .grid-containerto img {
@@ -456,7 +456,7 @@ footer p {
     .klientercases h1 {
         text-align: center;
         font-family: 'Nunito', sans-serif;
-        font-size: 20px;
+        font-size: 30px;
     }
     .cases img {
         width: 100%;
@@ -470,8 +470,8 @@ footer p {
         color: white;
         background-color: #7f0000;
         text-decoration: none;
-        padding: 20px 30px 20px 30px;
-        font-size: 25px;
+        padding: 18px 28px 18px 28px;
+        font-size: 18px;
         font-family: 'Rubik', sans-serif;
         border-radius: 5px;
     }

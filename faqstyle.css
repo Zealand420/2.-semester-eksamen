@@ -294,7 +294,7 @@ footer p {
     /* FAQ mobil section */
     .hovedsection {
         padding: 0px 10px 0px 10px;
-        margin-top: 100px;
+        margin-top: 125px;
     }
     .spørgsmål {
         background-color: #FFFFFF;
@@ -328,7 +328,7 @@ footer p {
     .overskriftfaq {
         color: black;
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         font-family: 'Nunito', sans-serif;
     }
     .aktiv,
