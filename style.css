@@ -279,13 +279,13 @@ ul li {
     margin-top: 100px;
 }
 
-.divbooktid h3{
+.divbooktid h3 {
     font-size: 30px;
     font-family: 'Nunito', sans-serif;
     margin-top: 50px;
 }
 
-.divbooktid p{
+.divbooktid p {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     margin-top: 10px;
@@ -342,11 +342,6 @@ footer p {
 
 .grå-footer {
     background-color: #d1d1d1;
-    bottom: 0;
-    position: absolute;
-    right: 0;
-    left: 0;
-    position: static;
 }
 
 .grå-flex {
@@ -484,17 +479,14 @@ footer p {
         text-align: center;
         margin-top: 50px;
     }
-
-    .divbooktid h3{
+    .divbooktid h3 {
         font-size: 30px;
         font-family: 'Nunito', sans-serif;
         margin-top: 50px;
     }
-    
-    .divbooktid p{
+    .divbooktid p {
         font-family: 'Rubik', sans-serif;
         font-size: 12px;
         margin-top: 10px;
     }
-
 }
