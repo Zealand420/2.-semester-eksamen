@@ -1,8 +1,8 @@
 function bestilling1() {
     var email = 'laer9384@edu.zealand.dk';
     var subject = 'Bestilling - CBD Olie';
-    var emailBody = "Hej. jeg ønsker at bestille følgende vare:%0D%0A" +
-        "CBD Olie%0D%0A" +
+    var emailBody = "Hej.%0D%0A" +
+        "Jeg ønsker at bestille følgende vare: CBD Olie%0D%0A" +
         "Antal:%0D%0A" +
         "Kontakt mig via (tlf el. email):%0D%0A" +
         "Hilsen:%0D%0A";
@@ -20,8 +20,8 @@ function bestilling1() {
 function bestilling2() {
     var email = 'laer9384@edu.zealand.dk';
     var subject = 'Bestilling - Collagile Dog';
-    var emailBody = "Hej. jeg ønsker at bestille følgende vare:%0D%0A" +
-        "Collagile Dog%0D%0A" +
+    var emailBody = "Hej. %0D%0A" +
+        "Jeg ønsker at bestille følgende vare: Collagile Dog%0D%0A" +
         "Antal:%0D%0A" +
         "Kontakt mig via (tlf el. email):%0D%0A" +
         "Hilsen:%0D%0A";
