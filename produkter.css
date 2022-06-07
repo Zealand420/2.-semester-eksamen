@@ -90,4 +90,22 @@ h4 {
         width: 400px;
         margin-bottom: 100px;
     }
+    p {
+        font-size: 14px;
+    }
+    .køb {
+        width: 350px;
+    }
+    .produkt {
+        width: 350px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
 }
