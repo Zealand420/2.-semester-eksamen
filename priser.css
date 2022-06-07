@@ -8,7 +8,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin-top: 125px;
-    margin-bottom: 120xp;
+    
 }
 
 .svar p{
@@ -97,6 +97,10 @@ h1 {
 
 
 @media screen and (max-width: 600px) {
+    h1{
+        font-size: 30px;
+    }
+
     .pris {
         padding: 10px;
         font-size: 14px;
